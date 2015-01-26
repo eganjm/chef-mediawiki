@@ -1,0 +1,12 @@
+name 'mediawiki'
+maintainer 'Leonard TAVAE'
+maintainer_email 'leonard.tavae@informatique.gov.pf'
+license 'Apache 2.0'
+description 'Installs/Configures mediawiki'
+long_description 'Installs/Configures mediawiki'
+version '0.1.0'
+
+depends 'apt'
+depends 'mysql', '~>5.6.1'
+depends 'database', '~>2.3.1'
+depends 'apache2'
