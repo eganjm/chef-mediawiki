@@ -20,6 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.omnibus.chef_version = '11.16.4'
   config.vm.box = 'ubuntu-14.04-chef'
+  config.vm.box_url = 'http://bit.ly/dsi-ubuntu-1404-box'
   config.vm.network :private_network, ip: '172.28.128.3'
   config.berkshelf.enabled = true
 
