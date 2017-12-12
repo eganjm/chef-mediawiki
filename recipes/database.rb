@@ -16,6 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+#
 
 node.set['mysql']['server_root_password'] = node['mediawiki']['mysql_root_pw']
 
